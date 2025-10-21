@@ -67,12 +67,35 @@ div.campo > label {
     display: none;
 }
 
+div.campo > i{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input{
+    background-color: #66c7ed;
+    font: 1em;
+    width: calc(100% - 44px);
+
+    height: 100%;
+    border: 0px;
+    border: 8px;
+    padding: 4px;
+}
+
+div.campo > input:focus-visible{
+    background-color: wheat;
+    border: none;
+}
+
 form > div.campo {
     background-color: #2b28ee;
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 
 }
@@ -94,7 +117,7 @@ form > input[type=submit]:hover{
 }
 
 form > a.botao{
-    display: block;
+    display: block; 
     text-align: center;
     font-size: 1em;
     width: 100%;
@@ -105,7 +128,7 @@ form > a.botao{
     color: #05678e;
     border: 1px solid #0eaeee;
     border-radius: 7px;
-    text-decoration: none;
+    text-decoration: none;      n
 }
 
 form > a.botao:hover{
